@@ -1,9 +1,9 @@
 #include <iostream>
+#include "Log.h"
 
 int main()
 {
-	bool variable = true;
-
-	std::cout << variable << std::endl;
+	InitLog();
+	Log("Hello, World");
 	std::cin.get();
 }
