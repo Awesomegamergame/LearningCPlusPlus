@@ -1,4 +1,4 @@
-//#pragma once
+#pragma once
 
 void InitLog();
 void Log(const char* messsage);
